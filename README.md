@@ -106,7 +106,7 @@
 
 请求示范
 ```
-final Map<String,Object>requestmap = new HashMap<>();
+        final Map<String,Object>requestmap = new HashMap<>();
         requestmap.put(KeyDic.KEY_PROVIDERNUMBER,"1243243");
         Position position = new Position();
         position.setLatitude(43);
@@ -155,7 +155,7 @@ final Map<String,Object>requestmap = new HashMap<>();
 
 请求示范
 ```java
-final Map<String,Object>requestmap = new HashMap<>();
+        final Map<String,Object>requestmap = new HashMap<>();
         requestmap.put(KeyDic.KEY_PROVIDERNUMBER,"1243243");
         requestmap.put(KeyDic.KEY_ORDERNUMBER,"18170074810");
         requestmap.put(KeyDic.KEY_ORDERID,"181700748101169231648");
@@ -201,7 +201,7 @@ final Map<String,Object>requestmap = new HashMap<>();
 
 请求示范
 ```java
-Map<String ,Object>resuestmap = new HashMap<>();
+        Map<String ,Object>resuestmap = new HashMap<>();
         resuestmap.put(KeyDic.KEY_ORDERID,orderid);
         resuestmap.put(KeyDic.KEY_ORDERNUMBER,"1434");
         OrderArrive arrive = new OrderArrive(resuestmap, new onResponseListener() {
